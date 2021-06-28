@@ -18,7 +18,7 @@ section {
 header {
   padding-top: 2rem;
   height: 100vh;
-  background-image: url(./asset/images/desktop/image-header.jpg);
+  background-image: url(../asset/images/desktop/image-header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,10 +113,10 @@ header {
     background-repeat: no-repeat;
   }
   .left_image {
-    background-image: url(./asset/images/desktop/image-graphic-design.jpg);
+    background-image: url(../asset/images/desktop/image-graphic-design.jpg);
   }
   .right_image {
-    background-image: url(./asset/images/desktop/image-photography.jpg);
+    background-image: url(../asset/images/desktop/image-photography.jpg);
   }
 }
 
