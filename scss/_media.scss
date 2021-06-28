@@ -1,0 +1,64 @@
+@media (max-width: 800px) {
+  header {
+    background-image: url(/asset/images/mobile/image-header.jpg);
+  }
+  .menu {
+    display: none;
+  }
+  .section_grid {
+    grid-template-columns: 1fr;
+  }
+  .client {
+    height: 100%;
+    .cards {
+      grid-template-columns: 1fr;
+      max-width: 300px;
+    }
+  }
+  .brand3 {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px 700px 1fr 1fr;
+    .left_image {
+      background-image: url(/asset/images/mobile/image-graphic-design.jpg);
+    }
+    .right_image {
+      background-image: url(/asset/images/mobile/image-photography.jpg);
+    }
+  }
+  .gallary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .brand .left,
+  .brand2 .right {
+    text-align: center;
+    height: 100vh;
+  }
+  .text_btn1,
+  .text_btn2 {
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+  }
+}
+@media (min-width: 800px) {
+  .section_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .brand,
+  .brand2,
+  .brand3,
+  .client {
+    height: 100vh;
+  }
+}
