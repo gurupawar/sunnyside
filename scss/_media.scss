@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
   header {
-    background-image: url(/asset/images/mobile/image-header.jpg);
+    background-image: url(./asset/images/mobile/image-header.jpg);
   }
   .menu {
     display: none;
@@ -20,10 +20,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 700px 700px 1fr 1fr;
     .left_image {
-      background-image: url(/asset/images/mobile/image-graphic-design.jpg);
+      background-image: url(./asset/images/mobile/image-graphic-design.jpg);
     }
     .right_image {
-      background-image: url(/asset/images/mobile/image-photography.jpg);
+      background-image: url(./asset/images/mobile/image-photography.jpg);
     }
   }
   .gallary {
