@@ -1,1 +1,1 @@
-### [Demo](https://github.com/gurupawar/sunnyside)
+### [Demo](https://gurupawar.github.io/sunnyside/)
