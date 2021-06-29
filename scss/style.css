@@ -330,7 +330,7 @@ footer .social img + img {
   .brand .left,
   .brand2 .right {
     text-align: center;
-    height: 100vh;
+    height: 450px;
   }
   .text_btn1::before,
   .text_btn2::before {
